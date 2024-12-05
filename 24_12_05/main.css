@@ -1,0 +1,26 @@
+div.img {
+  position: relative;
+}
+div.img img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+div.img h1 {
+  top: -25px;
+  left: 50%;
+  border: 1px solid yellow;
+}
+
+div.img div {
+  border: 1px solid yellow;
+  left: 50%;
+  bottom: -25px;
+  text-align: center;
+  font-size: 30px;
+}
+
+div.img .ab {
+  position: absolute;
+  color: whitesmoke;
+}

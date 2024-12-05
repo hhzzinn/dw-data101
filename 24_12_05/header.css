@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(27, 27, 27);
+  color: rgb(187, 187, 187);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+}
+button.globe {
+  height: 36px;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 18px;
+  border: 1px solid;
+  color: whitesmoke;
+}
+
+button.globe img {
+  width: 16px;
+}
+button.login {
+  height: 36px;
+  cursor: pointer;
+  border-radius: 18px;
+  border: none;
+  transition: all 0.3s;
+  /* transition --> 버튼 애니메이션
+  all은 모든 방향, 0.3s는 전환 속도 */
+}
+button.login:hover {
+  background-color: rgb(184, 184, 184);
+}
+button.title {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(223, 0, 0);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+header > ul {
+  display: flex;
+  column-gap: 10px;
+  /* column-gap --> 양팔간격 좌우로 나란히, 사이 간격만 띄어준다. */
+}

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  background-color: rgb(1, 1, 71);
+  border: none;
+  height: 60px;
+}
+header,
+ul,
+.wrap {
+  align-items: center;
+  /* 수직 가운데 정렬 */
+}
+.wrap {
+  border: 1px solid;
+  display: flex;
+  column-gap: 20px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  column-gap: 20px;
+}
+.logo {
+  height: 30px;
+  font-size: 30px;
+}
+header img {
+  width: 30px;
+  height: 30px;
+}
+button {
+  background-color: transparent;
+  color: whitesmoke;
+  cursor: pointer;
+  border: none;
+}
+header > .wrap {
+  justify-content: space-between;
+  width: 100%;
+}
